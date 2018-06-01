@@ -57,6 +57,16 @@
 			<artifactId>google-cloud-speech</artifactId>
 			<version>0.49.0-alpha</version>
 		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180130</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.5</version>
+		</dependency>
 	</dependencies>
 
 	<build>
