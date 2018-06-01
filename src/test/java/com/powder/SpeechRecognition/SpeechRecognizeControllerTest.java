@@ -23,10 +23,9 @@ import java.io.InputStream;
 public class SpeechRecognizeControllerTest {
 
     @Test
-    public void shouldReceiveHowOldIstTheBrooklynBridgeAnswer(){
+    public void shouldReceiveHowOldIsTheBrooklynBridgeAnswer(){
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
         InputStream is = classloader.getResourceAsStream("audio.raw");
-
 
         byte[] data;
         try {

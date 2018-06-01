@@ -21,7 +21,6 @@ public class SpeechRecognizeController {
     public String recognizeSpeech(@RequestBody AudioFile audioFile){
 
         String stringResponse = "";
-
         try (SpeechClient speechClient = SpeechClient.create()) {
 
 
@@ -55,4 +54,5 @@ public class SpeechRecognizeController {
 
         return stringResponse;
     }
+
 }
